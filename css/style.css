@@ -1,0 +1,119 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0 auto;
+}
+
+.main-container {
+    background-color: none;
+    height: 100%;
+    width: 100%;
+    font-family: 'PT sans', sans-serif;
+    float: right;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: #05a2e6;
+}
+
+.logo {
+  color: white;
+  float: left;
+  margin-left: 25px;
+  vertical-align: middle;
+}
+
+.search-bar {
+
+}
+
+.search {
+    height: 3em;
+    width: 80%;
+    font-size: 18px;
+}
+
+.left-menu-section {
+  background-color: none;
+  width: 25%;
+  text-align: center;
+  padding-top: 40px;
+  border-right: 1px solid grey;
+  float: left;
+  overflow: scroll;
+}
+
+.left-menu-section>a {
+  text-decoration: none;
+}
+
+.topic-names {
+  font-size: 25px;
+  margin-top: 40px;
+  color: black;
+}
+
+.topic-names:hover {
+    color: #05a2e6;
+    font-size: 28px;
+}
+
+.layoutTemplate {
+  background-color: none;
+  height: 100%;
+  width: 75%;
+  float: right;
+  text-align: center;
+}
+
+.headers-section {
+  background-color: none;
+  height: 50px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.headers {
+  font-size: 35px;
+}
+
+.horizontal-line {
+  width: 75%;
+}
+.steps {
+  background-color: none;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 20px;
+}
+
+.paragraph-section {
+  background-color: none;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.code-snippets {
+  background-color: none;
+  margin: 0 auto;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
