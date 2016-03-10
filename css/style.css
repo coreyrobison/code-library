@@ -30,13 +30,9 @@ body {
   vertical-align: middle;
 }
 
-.search-bar {
-
-}
-
 .search {
     height: 3em;
-    width: 80%;
+    width: 20%;
     font-size: 18px;
 }
 
@@ -50,9 +46,6 @@ body {
   overflow: scroll;
 }
 
-.left-menu-section>a {
-  text-decoration: none;
-}
 
 .topic-names {
   font-size: 25px;
