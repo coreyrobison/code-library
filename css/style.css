@@ -102,8 +102,13 @@ body {
 /*landing view*/
 .title {
     text-align: center;
-    
 }
+
+.modal {
+    text-align: center;
+}
+
+
 
 
 

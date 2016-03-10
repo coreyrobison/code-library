@@ -1,7 +1,7 @@
 (function() {
     'use strict';
 
-    angular.module('code-library').controller("indexCtrl", indexController)
+    angular.module('codeLibrary').controller("indexCtrl", indexController)
 
     function indexController($scope) {
 

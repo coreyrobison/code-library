@@ -28,8 +28,12 @@
 <body ng-controller="mainCtrl">
     <header class="header">
 
-        <section class="menu" img src=""></section>
-        <section class="logo" ui-sref="/"><i class="fa fa-code code-icon fa-5x"></i></section>
+        <head>
+            <link rel="stylesheet" type="text/css" href="" class="logo"><i class="fa fa-code code-icon fa-5x"></i>
+        </head>
+        <section class="logo"><i class="fa fa-code code-icon fa-5x"></i></section>
+
+        <a ui-sref="logo" class="fa fa-code code-icon fa-5x"></a>
 
     </header>
 
@@ -74,7 +78,8 @@
     <script src='controllers/mainCtrl.js'></script>
     <script src='services/topicService.js'></script>
     <script src='indexCtrl.js'></script>
-
+    <script src="controllers/landingCtrl.js"></script>
+    <script src="services/landingService.js"></script>
 
 </body>
 

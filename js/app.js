@@ -4,7 +4,8 @@ angular.module("codeLibrary", ['ui.router'])
         $stateProvider
             .state('landing', {
                 url: '/',
-                templateUrl: 'views/landingViewTemplate.html'
+                templateUrl: 'views/landingViewTemplate.html',
+                controller: 'landingCtrl'
             })
             .state('git', {
                 url: '/git',
