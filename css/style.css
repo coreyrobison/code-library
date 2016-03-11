@@ -23,7 +23,7 @@ body {
   background-color: #05a2e6;
 }
 
-.logo {
+#logo {
   color: white;
   float: left;
   margin-left: 25px;
@@ -104,10 +104,9 @@ body {
     text-align: center;
 }
 
-.modal {
-    text-align: center;
+.btn, .btn-large {
+    width: 30%;
 }
-
 
 
 
