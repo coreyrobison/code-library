@@ -94,10 +94,15 @@ body {
   margin: 0 auto;
 }
 
+.container {
+    width: 80%;
+}
+
 /*landing view*/
 .title {
     text-align: center;
-    font: light-italic;
+    font-size: 600%;
+    text-decoration: underline;
 }
 
 .btn, .btn-large {
@@ -114,7 +119,9 @@ body {
 }
 
 .code-snippet {
-    text-align: left;
+    border:solid gray;
+    border-width:.1em .1em .1em .8em;
+    padding:.2em .6em;
 }
 
 
