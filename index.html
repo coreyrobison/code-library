@@ -36,6 +36,7 @@
 
         <section class="left-menu-section">
             <!--Search Input-->
+            <div class="search-box">
             <section class="search-bar z-depth-3">
                 <nav>
                     <div class="nav-wrapper #ff9e80 deep-orange accent-1">
@@ -49,6 +50,7 @@
                     </div>
                 </nav>
             </section>
+            </div>
 
             <!--All of the different topic views-->
             <a ui-sref="{{topic.state}}" ng-repeat='topic in topics | filter: filterTopic '>
