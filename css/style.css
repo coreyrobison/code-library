@@ -87,6 +87,7 @@ body {
   background-color: none;
   width: 90%;
   margin: 0 auto;
+  padding-bottom: 20px;
 }
 
 .code-snippets {
@@ -123,7 +124,6 @@ body {
     border-width:.1em .1em .1em .8em;
     padding:.2em .6em;
 }
-
 
 
 

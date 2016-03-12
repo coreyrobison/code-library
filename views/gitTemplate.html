@@ -1,63 +1,120 @@
 <section class="layoutTemplate">
 
-  <!-- Header of each page -->
+    <section class="headers-section">
+        <h1 class="headers">What is GitHub?</h1></section>
 
-  <section class="headers-section">
-      <h1 class="headers">Steps to set up git:</h1>
-  </section>
+    <body>
+        <div class="container">
+            <section>
+                <hr class="horizontal-line">
+                <p class="paragraph-section">GitHub is a web-based Git repository hosting service. GitHub is how you'll share your code. Think of it like
+                    the cloud, it updates your projects whenever you chose. Git is the command-line tool, while GitHub is
+                    the actual website where you can see your projects.</p>
+            </section>
 
-  <hr class="horizontal-line">
 
-  <section class="steps">
-    <p>Step 1: Create a Repository on Github</p>
-    <p>Step 2: Set up the Origin</p>
-    <p>Step 3: Push your code to GitHub</p>
-    <p>Step 4: Do this and then that.</p>
+            <ul class="collapsible" data-collapsible="accordion">
+                <li>
+                    <div class="collapsible-header"><i class="material-icons">done</i>Do this!</div>
+                    <div class="collapsible-body">
+                        <p>Here is a detailed first step. Settting up your file structure etc.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header"><i class="material-icons">done</i>Now do that!</div>
+                    <div class="collapsible-body">
 
-  </section>
+                        <p>This is a detailed guide for the next step and an example of a code snippets. A great way to practice
+                            and learn the syntax better is to write out the snippet instead of copy/pasting.</p>
 
-  <!-- step 1 -->
+                        <!--Code snippet sample-->
+                        <div style="background: #f0f0f0; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+                            <table>
+                                <tr>
+                                    <td><pre style="margin: 0; line-height: 125%"> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13</pre></td>
+                                    <td><pre style="margin: 0; line-height: 125%"><span style="color: #007020; font-weight: bold">function</span> factorialize(num) {
+  
+  <span style="color: #007020; font-weight: bold">var</span> returnMe <span style="color: #666666">=</span> <span style="color: #40a070">1</span>;
+  
+  <span style="color: #007020; font-weight: bold">for</span> (<span style="color: #007020; font-weight: bold">var</span> i <span style="color: #666666">=</span> <span style="color: #40a070">2</span>; i <span style="color: #666666">&lt;=</span> num; i<span style="color: #666666">++</span>) {
+    returnMe <span style="color: #666666">=</span> returnMe <span style="color: #666666">*</span> i;
+  }
+  
+  <span style="color: #007020; font-weight: bold">return</span> returnMe;
+  
+}
 
-  <section class="headers-section"><h1 class="headers">Step1: Create a Repository on Github</h1></section>
+factorialize(<span style="color: #40a070">5</span>);
+</pre></td>
+                                </tr>
+                            </table>
+                        </div>
 
-  <section>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header"><i class="material-icons">done</i>Last part!</div>
+                    <div class="collapsible-body">
+
+                        <p>A detailed guide to the last step.</p>
+
+                        <!--Code snippet sample-->
+                        <div style="background: #f0f0f0; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+                            <table>
+                                <tr>
+                                    <td><pre style="margin: 0; line-height: 125%">1
+2
+3
+4
+5</pre></td>
+                                    <td><pre style="margin: 0; line-height: 125%"><span style="color: #007020; font-weight: bold">function</span> reverseString(str) {
+  <span style="color: #007020; font-weight: bold">return</span> str.split(<span style="color: #4070a0">&#39;&#39;</span>).reverse().join(<span style="color: #4070a0">&#39;&#39;</span>);
+}
+
+reverseString(<span style="color: #4070a0">&quot;hello&quot;</span>);
+</pre></td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <p>Now hopefully you've been able to walk through each step and build your foundation to start coding.</p>
+
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </body>
+
+    <!-- resources section -->
+    <section class="headers-section">
+        <h1 class="headers">Additional Resources:</h1>
+    </section>
+
     <hr class="horizontal-line">
-    <p class="paragraph-section">Let's jump ahead a month or two and pretend like we just reached personal projects. You're going to be pushing your code up to GitHub frequently. In order to do that, you first need to create a repository on GitHub to push to. Head over to your GitHub account, then in the top right-hand corner click the '+' button and click 'New repository'. Enter the name of your repository then click 'Create Repository'. This repository is where your code for this project will now live.
-    </p>
-  </section>
-  <!-- <section class="code-snippets"><img src="images/snippet.png" /></section> -->
 
-  <!-- step 2 -->
-  <section class="headers-section"><h1 class="headers">Step2: git busy coding.</h1></section>
-  <section>
-    <hr class="horizontal-line">
-    <p class="paragraph-section">This is where you would get more extensive directions as to how to complete the step that you want them to understand. This will be very useful to teach the students the concepts.
-    </p>
-  </section>
-  <!-- <section class="code-snippets"><img src="images/snippet.png" /></section> -->
+    <section class="steps">
+        <a href="http://rogerdudler.github.io/git-guide/">
+            <p>http://rogerdudler.github.io/git-guide/</p>
+        </a>
+        <a href="https://www.atlassian.com/git/tutorials/setting-up-a-repository/">
+            <p>https://www.atlassian.com/git/tutorials/setting-up-a-repository/</p>
+        </a>
 
-  <!-- step 3 -->
-  <section class="headers-section"><h1 class="headers">Step3: Do a bunch more stuff.</h1></section>
-  <section>
-    <hr class="horizontal-line">
-    <p class="paragraph-section">This is where you would get more extensive directions as to how to complete the step that you want them to understand. This will be very useful to teach the students the concepts.
-    </p>
-  </section>
-  <!-- <section class="code-snippets"><img src="images/snippet.png" /></section> -->
-
-  <!-- resources section -->
-  <section class="headers-section">
-      <h1 class="headers">Additional Resources:</h1>
-  </section>
-
-  <hr class="horizontal-line">
-
-  <section class="steps">
-    <a href="http://rogerdudler.github.io/git-guide/"><p>http://rogerdudler.github.io/git-guide/</p></a>
-    <a href="https://www.atlassian.com/git/tutorials/setting-up-a-repository/"><p>https://www.atlassian.com/git/tutorials/setting-up-a-repository/</p></a>
-
-  </section>
+    </section>
 
 
 
-   </section>
+</section>

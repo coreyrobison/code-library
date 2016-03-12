@@ -10,7 +10,7 @@ angular.module("codeLibrary", ['ui.router'])
             .state('git', {
                 url: '/git',
                 templateUrl: '/views/gitTemplate.html',
-                controller: 'mainCtrl'
+                controller: 'gitCtrl'
             })
             .state('html', {
                 url: '/html',
