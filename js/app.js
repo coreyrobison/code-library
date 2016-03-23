@@ -133,4 +133,5 @@ angular.module("codeLibrary", ['ui.router'])
                 controller: 'mainCtrl'
             })
 
-    })
+
+    });
